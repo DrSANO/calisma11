@@ -1,9 +1,6 @@
-from numba import jit,cuda
 from ultralytics import YOLO
 import cv2 as cv
 import numpy as np
-import cvzone
-import math
 import time
 
 model = YOLO("fwlastn.pt")
